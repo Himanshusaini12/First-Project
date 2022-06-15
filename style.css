@@ -1,6 +1,27 @@
 body {
-  background: #ff008c;
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
 }
-.title {
-  color: aqua;
+.container {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  //	background-color: #70D;
+  outline-style: solid;
+  box-shadow: 5px 10px #888888;
+}
+#hours {
+  color: #20e0c3;
+}
+#minutes {
+  color: #04e272;
+}
+#seconds {
+  color: #ea0d0d;
 }
